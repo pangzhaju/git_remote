@@ -27,16 +27,16 @@
           ```
 void PrintMatrixClockwisely(int **numbers, int columns, int rows)
 {
-    if(numbers == NULL || columns <= 0 || rows <=0)
-      return;
-    int start = 0;
-    while(columns > start*2 && rows > start *2)
-    {
-        PrintMatrixInCircle(numbers, columns, rows, start);
-        ++ satrt;
-    }
+​    if(numbers == NULL || columns <= 0 || rows <=0)
+​      return;
+​    int start = 0;
+​    while(columns > start*2 && rows > start *2)
+​    {
+​        PrintMatrixInCircle(numbers, columns, rows, start);
+​        ++ satrt;
+​    }
 }
-          ```
+​          ```
 
 ​        接着考虑如何打印一圈的功能，即如何实现PrintMatrixInCircle
 
@@ -97,4 +97,4 @@ op2=>operation: 操作2
 st->io_rows_columns->e
 ```
 
-
+ianc

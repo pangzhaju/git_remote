@@ -25,8 +25,22 @@
 
 #include <cstdio>
 #include <stack>
+//2018/10/22 向量版本
+#include <vector>
+//必须加using namespace std;
+using namespace std;
+//vector<int> PrintMatrix(vector<vector<int>>matrix)
+//{
+//    //这句不明白
+//    vector<int> res;
+//    //这句不明白
+//    res.clear();
+//    //这句不明白
+////    int rows = matrix.size();
+////    int columns = matrix
+//}
 
-//2018/10/22 顺时针由外到内打印矩阵
+//2018/10/22 顺时针由外到内打印矩阵 二维数组版本
 void printNumber(int number)
 {
     printf("%d\t", number);
